@@ -54,6 +54,7 @@ body * {
 #container {
   height: 712px;
   width: 360px;
+  max-width: 588px;
   margin: auto;
   margin-top: 56px;
   padding: 0 24px;
