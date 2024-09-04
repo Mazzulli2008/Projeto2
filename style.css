@@ -22,6 +22,17 @@
   --surface-color-houver: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  background: linear-gradient(45deg, #5423c7, #fff, pink,#fff );
+  background-size:  300% 300%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+html {
+  background: linear-gradient(45deg, #5423c7, #190146, #120133,#382758 );
+  background-size:  300% 300%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
 }
 
 body {
@@ -33,7 +44,7 @@ body {
     /*
 
     /*background: color image repeat position/size*/
-  background: var(--bg-url) no-repeat top center/cover;
+  /*background: var(--bg-url) no-repeat top center/cover;*/
 }
 
 body * {
@@ -178,3 +189,25 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* styles.css */
+
+  .gradient-background {
+    background: linear-gradient(45deg, #5423c7, #190146, #120133,#382758 );
+    background-size:  300% 300%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
