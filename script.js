@@ -9,6 +9,7 @@ function toggleMode() {
     //substituir a imagem 
     if(html.classList.contains('light')) {
 
+    // update img
     //se tiver light mode, adicionar a imagem samurai.jpg
     img.setAttribute("src", "./assets/Avatar-light.png")
     } else {
